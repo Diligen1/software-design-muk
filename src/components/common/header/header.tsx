@@ -13,13 +13,13 @@ export default function Header() {
               Лекции
             </Link>
             <Link
-              href="/"
+              href="/#textbooks"
               className="text-black text-[18px] hover:scale-[1.2] hover:text-[var(--text-color)] duration-300 text-underline"
             >
               Учебники
             </Link>
             <Link
-              href="/"
+              href="/#textbooks"
               className="text-black text-underline text-[18px] hover:scale-[1.2] overflow-hidden hover:text-[var(--text-color)] duration-300"
             >
               Видеоматериал

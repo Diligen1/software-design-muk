@@ -4,7 +4,10 @@ import image from "../../../../public/assets/img/615142884f765694638137.png";
 export default function Textbooks() {
   return (
     <main className="mx-auto">
-      <div className="w-full h-[450px] bg-[var(--text-color)] flex flex-row">
+      <div
+        className="w-full h-[450px] bg-[var(--text-color)] flex flex-row"
+        id="textbooks"
+      >
         <div className="w-[50%] h-full flex flex-col justify-evenly items-start  px-[30px]">
           <p className="text-white text-[20px]">Основы Конструирования ПО</p>
           <p className="text-[38px] text-white">
@@ -14,7 +17,7 @@ export default function Textbooks() {
             Этот учебник предлагает всестороннее введение в конструирование
             программного обеспечения, охватывая ключевые концепции и методики,
           </p>
-          <div className="cursor-pointer w-[240px] h-[50px] duration-300 bg-white hover:bg-[var(--text-color)] text-[var(--text-color)] hover:text-white flex justify-center items-center">
+          <div className="cursor-pointer rounded-[16px] w-[240px] h-[50px] duration-300 border-white border-[1px]  hover:bg-white text-white hover:text-[var(--text-color)] flex justify-center items-center">
             Посмотреть учебники
           </div>
         </div>

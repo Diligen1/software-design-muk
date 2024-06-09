@@ -1,4 +1,11 @@
-import { Header, Promo, Lectures, Textbooks } from "@/components";
+import {
+  Header,
+  Promo,
+  Lectures,
+  Textbooks,
+  Footer,
+  Materials,
+} from "@/components";
 export default function Home() {
   return (
     <main>
@@ -6,6 +13,8 @@ export default function Home() {
       <Promo />
       <Lectures />
       <Textbooks />
+      <Materials />
+      <Footer />
     </main>
   );
 }
