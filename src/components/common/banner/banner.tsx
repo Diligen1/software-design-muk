@@ -2,8 +2,8 @@
 import { useState } from "react";
 import Image from "next/image";
 import image from "../../../../public/assets/img/featured_websites2023-scaled.jpg";
-import image_2 from "@/../../muk/public/assets/img/ff805a6cdd5ab31d2d979ea92c5ecf39.jpg";
-import image_3 from "@/../../muk/public/assets/img/web-portal.jpeg";
+import image_2 from "../../../../muk/public/assets/img/ff805a6cdd5ab31d2d979ea92c5ecf39.jpg";
+import image_3 from "../../../../muk/public/assets/img/web-portal.jpeg";
 export default function Banner() {
   const [clicked, setClicked] = useState(null);
 
