@@ -15,7 +15,7 @@ body {
 body::-webkit-scrollbar {
   width: 8px;
   height: 2px;
-  background-color: var(--bg-color);
+  background-color: var(--second-color);
 }
 body::-webkit-scrollbar-thumb {
   background-color: var(--text-color);
@@ -24,6 +24,22 @@ body::-webkit-scrollbar-thumb {
 ::selection {
   background-color: var(--text-color);
   color: var(--bg-color);
+}
+.text-underline::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 4px;
+  background-color: var(--text-color);
+  transition: width 0.4s ease;
+}
+
+.text-underline:hover::after {
+  width: 100%;
+}
+::selection {
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 html {
   scroll-behavior: smooth;

@@ -2,12 +2,12 @@
 import Link from "next/link";
 export default function Header() {
   return (
-    <main className="mx-auto fixed w-full ">
+    <main className="mx-auto fixed w-full z-10 ">
       <div className=" w-full h-[100px] bg-[var(--second-color)] flex justify-center items-center">
         <div className="w-full h-[80px] flex flex-row justify-around items-center">
           <div className="gap-[40px] flex flex-row justify-around items-center">
             <Link
-              href="/#banner"
+              href="/#lectures"
               className="text-black text-[18px] hover:scale-[1.2] hover:text-[var(--text-color)] duration-300"
             >
               Лекции

@@ -1,9 +1,10 @@
-import { Header, Promo } from "@/components";
+import { Header, Promo, Lectures } from "@/components";
 export default function Home() {
   return (
-    <main className="">
+    <main>
       <Header />
       <Promo />
+      <Lectures />
     </main>
   );
 }

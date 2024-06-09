@@ -26,7 +26,7 @@ export default function Banner() {
     },
   ]);
   return (
-    <div className="mx-auto flex flex-row justify-around items-center w-full  h-full">
+    <div className="mx-auto flex flex-row justify-around items-center w-full h-full">
       {blockData.map((el) => (
         <div
           key={el.id}

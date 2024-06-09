@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { PT_Sans } from "next/font/google";
-import "./globals.css";
+import "./../styles/globals.css";
 
 const sans = PT_Sans({
   subsets: ["cyrillic"],
