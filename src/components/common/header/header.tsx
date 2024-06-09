@@ -8,33 +8,33 @@ export default function Header() {
           <div className="gap-[40px] flex flex-row justify-around items-center">
             <Link
               href="/#lectures"
-              className="text-black text-[18px] hover:scale-[1.2] hover:text-[var(--text-color)] duration-300"
+              className="text-black text-[18px] hover:scale-[1.2] hover:text-[var(--text-color)] duration-300 text-underline"
             >
               Лекции
             </Link>
             <Link
               href="/"
-              className="text-black text-[18px] hover:scale-[1.2] hover:text-[var(--text-color)] duration-300"
+              className="text-black text-[18px] hover:scale-[1.2] hover:text-[var(--text-color)] duration-300 text-underline"
             >
               Учебники
             </Link>
             <Link
               href="/"
-              className="text-black text-[18px] hover:scale-[1.2] overflow-hidden hover:text-[var(--text-color)] duration-300"
+              className="text-black text-underline text-[18px] hover:scale-[1.2] overflow-hidden hover:text-[var(--text-color)] duration-300"
             >
               Видеоматериал
             </Link>
             <Link
               href="/"
-              className="text-black text-[18px] hover:scale-[1.2] hover:text-[var(--text-color)] duration-300"
+              className="text-black text-underline text-[18px] hover:scale-[1.2] hover:text-[var(--text-color)] duration-300"
             >
-              Заданий
+              Задания
             </Link>
           </div>
           <div className="flex flex-row gap-[20px]">
             <Link
               href="/"
-              className=" text-[18px] px-[25px] py-[8px] bg-black text-[var(--second-color)] rounded-[24px] hover:text-[var(--text-color)] hover:bg-[var(--second-color)] duration-300 border-[var(--second-color)] border-[1px] hover:border-[var(--text-color)]"
+              className=" text-[18px] px-[25px] py-[8px] bg-[var(--text-color)] text-[var(--second-color)] rounded-[24px] hover:text-[var(--text-color)] hover:bg-[var(--second-color)] duration-300 border-[var(--second-color)] border-[1px] hover:border-[var(--text-color)]"
             >
               регистрация
             </Link>
