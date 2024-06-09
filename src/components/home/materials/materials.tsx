@@ -1,7 +1,7 @@
 "use client";
 export default function Materials() {
   return (
-    <main className="mx-auto">
+    <main className="mx-auto" id="material">
       <div className="w-full h-[500px] relative flex flex-row justify-evenly gap-[40px] items-center px-[20px]">
         <div className="w-[60%] rounded-[32px] overfolw-hidden">
           <video
@@ -22,7 +22,7 @@ export default function Materials() {
               программного обеспечения.
             </p>
           </div>
-          <div className="w-[200px] h-[40px] bg-[var(--text-color)] flex justify-center items-center text-white hover:bg-white hover:text-[var(--text-color)] border-[1px] border-[var(--text-color)] duration-300 rounded-[8px] cursor-pointer">
+          <div className="w-[200px] h-[60px] bg-[var(--text-color)] flex justify-center items-center text-white hover:bg-white hover:text-[var(--text-color)] border-[1px] border-[var(--text-color)] duration-300 rounded-[8px] cursor-pointer">
             Просмотреть видео
           </div>
         </div>

@@ -7,25 +7,29 @@ export default function Footer() {
         <div className="w-[40px] h-[40px] rounded-[50%] bg-[var(--text-color)]"></div>
         <div className="gap-[40px] flex flex-row justify-around items-center">
           <Link
+            passHref
             href="/#lectures"
             className="text-black text-[18px] hover:scale-[1.2] hover:text-[var(--text-color)] duration-300 text-underline"
           >
             Лекции
           </Link>
           <Link
-            href="/"
+            passHref
+            href="/#textbooks"
             className="text-black text-[18px] hover:scale-[1.2] hover:text-[var(--text-color)] duration-300 text-underline"
           >
             Учебники
           </Link>
           <Link
-            href="/"
+            passHref
+            href="/#material"
             className="text-black text-underline text-[18px] hover:scale-[1.2] overflow-hidden hover:text-[var(--text-color)] duration-300"
           >
             Видеоматериал
           </Link>
           <Link
-            href="/"
+            passHref
+            href="/#tasks"
             className="text-black text-underline text-[18px] hover:scale-[1.2] hover:text-[var(--text-color)] duration-300"
           >
             Задания

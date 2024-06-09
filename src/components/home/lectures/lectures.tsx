@@ -77,7 +77,7 @@ export default function Lectures() {
               <p className="px-[10px] text-[16px]">{el.text}</p>
               <Link
                 href={el.put}
-                className="cursor-pointer py-[5px] px-[10px] bg-[var(--text-color)] border-[1px] border-[var(--text-color)] text-[var(--second-color)] hover:text-[var(--text-color)] hover:bg-[var(--second-color)] duration-300 rounded-[8px]"
+                className="cursor-pointer py-[10px] px-[25px] bg-[var(--text-color)] border-[1px] border-[var(--text-color)] text-[var(--second-color)] hover:text-[var(--text-color)] hover:bg-[var(--second-color)] duration-300 rounded-[8px]"
               >
                 ПЕРЕЙТИ
               </Link>

@@ -5,6 +5,7 @@ import {
   Textbooks,
   Footer,
   Materials,
+  Tasks,
 } from "@/components";
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Lectures />
       <Textbooks />
       <Materials />
+      <Tasks />
       <Footer />
     </main>
   );

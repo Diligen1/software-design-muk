@@ -14,7 +14,7 @@ export default function Promo() {
           </p>
           <Link
             href="/#lectures"
-            className=" cursor-pointer w-[120px] h-[50px] flex justify-center items-center duration-300 rounded-[16px] border-[1px] border-[var(--second-color)] hover:border-[var(--text-color)] bg-[var(--text-color)] hover:bg-[var(--second-color)] text-white hover:text-[var(--text-color)]"
+            className=" cursor-pointer w-[200px] h-[60px] text-[20px] flex justify-center items-center duration-300 rounded-[16px] border-[1px] border-[var(--second-color)] hover:border-[var(--text-color)] bg-[var(--text-color)] hover:bg-[var(--second-color)] text-white hover:text-[var(--text-color)]"
           >
             <p>ПЕРЕЙТИ</p>
           </Link>
