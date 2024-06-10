@@ -38,8 +38,8 @@ export default function Header() {
           <div className="flex flex-row gap-[20px]">
             <Link
               passHref
-              href="/"
-              className=" text-[18px] px-[25px] py-[8px] bg-[var(--text-color)] text-[var(--second-color)] rounded-[24px] hover:text-[var(--text-color)] hover:bg-[var(--second-color)] duration-300 border-[var(--second-color)] border-[1px] hover:border-[var(--text-color)]"
+              href="/register"
+              className=" text-[18px] px-[25px] py-[8px] bg-[var(--text-color)] text-[var(--second-color)] rounded-[16px] hover:text-[var(--text-color)] hover:bg-[var(--second-color)] duration-300 border-[var(--second-color)] border-[1px] hover:border-[var(--text-color)]"
             >
               регистрация
             </Link>

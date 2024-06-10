@@ -62,7 +62,7 @@ export default function Lectures() {
         <div className="w-[100%] m-[60px] flex flex-row justify-center items-center flex-wrap gap-[20px]">
           {lectures.map((el, index) => (
             <div
-              className="py-[20px] w-[400px] h-[250px] rounded-[32px] border-[1px] border-[var(--text-color)] bg-white flex flex-col justify-center items-center"
+              className="py-[20px] w-[400px] h-[350px] rounded-[32px] border-[1px] border-[var(--text-color)] bg-white flex flex-col justify-center items-center"
               key={index}
             >
               <div className="w-[90%] h-[50%] bg-black relative overflow-hidden rounded-[16px]">
