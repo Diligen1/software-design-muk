@@ -6,4 +6,15 @@ import Textbooks from "./home/textbooks/textbooks";
 import Footer from "./common/footer/footer";
 import Materials from "./home/materials/materials";
 import Tasks from "./home/tasks/tasks";
-export { Header, Promo, Banner, Lectures, Textbooks, Footer, Materials, Tasks };
+import Promolectures from "./common/lecturescourses/promolectures";
+export {
+  Header,
+  Promo,
+  Banner,
+  Lectures,
+  Textbooks,
+  Footer,
+  Materials,
+  Tasks,
+  Promolectures,
+};
