@@ -4,7 +4,11 @@ export default function Footer() {
   return (
     <main className="mx-auto">
       <div className="w-full h-[250px] flex flex-col justify-evenly items-center bg-[var(--bg-color)]">
-        <div className="w-[40px] h-[40px] rounded-[50%] bg-[var(--text-color)]"></div>
+        <Link
+          passHref
+          href="/#promo"
+          className="w-[40px] h-[40px] rounded-[50%] bg-[var(--text-color)]"
+        ></Link>
         <div className="gap-[40px] flex flex-row justify-around items-center">
           <Link
             passHref

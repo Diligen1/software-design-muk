@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import image from "../../../../public/assets/img/615142884f765694638137.png";
+import Link from "next/link";
 export default function Textbooks() {
   return (
     <main className="mx-auto">
@@ -17,9 +18,13 @@ export default function Textbooks() {
             Этот учебник предлагает всестороннее введение в конструирование
             программного обеспечения, охватывая ключевые концепции и методики,
           </p>
-          <div className="cursor-pointer rounded-[16px] w-[240px] h-[50px] duration-300 border-white border-[1px]  hover:bg-white text-white hover:text-[var(--text-color)] flex justify-center items-center">
+          <Link
+            passHref
+            href="/textbooks"
+            className="cursor-pointer rounded-[16px] w-[240px] h-[50px] duration-300 border-white border-[1px]  hover:bg-white text-white hover:text-[var(--text-color)] flex justify-center items-center"
+          >
             Посмотреть учебники
-          </div>
+          </Link>
         </div>
         <div className="w-[60%] h-full">
           <Image src={image} alt="text" layout="adv" objectFit="cover" />
